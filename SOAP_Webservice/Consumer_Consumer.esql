@@ -1,0 +1,18 @@
+DECLARE ns NAMESPACE 'http://www.example.org/Addition/';
+
+
+CREATE COMPUTE MODULE Consumer_Consumer
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		CALL CopyEntireMessage();
+		RETURN TRUE;
+	END;
+
+	
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot.SOAP.Body.ns:Addition.a = InputRoot.XMLNSC.ns:Addition.a;
+		SET OutputRoot.SOAP.Body.ns:Addition.b = InputRoot.XMLNSC.ns:Addition.b;
+	END;
+END MODULE;
