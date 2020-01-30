@@ -3,6 +3,8 @@
 CREATE COMPUTE MODULE shiavatask123_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
+	
+	--hiiii,helloo goodmorning to alll     the besrt    
 		-- CALL CopyMessageHeaders();
 		   CALL CopyEntireMessage();
 		RETURN TRUE;
