@@ -3,6 +3,8 @@
 CREATE COMPUTE MODULE TASK2HBODY_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
+	
+	---- bhoolkop  amsdfsadfasd hii good morinig  
 		-- CALL CopyMessageHeaders();
 		 CALL CopyEntireMessage();
 		RETURN TRUE;
