@@ -8,7 +8,7 @@ CREATE COMPUTE MODULE Sub_3_Compute
 		   CALL CopyEntireMessage();
 		RETURN TRUE;
 	END;
-
+---- bhollk is back
 	CREATE PROCEDURE CopyMessageHeaders() BEGIN
 		DECLARE I INTEGER 1;
 		DECLARE J INTEGER;
