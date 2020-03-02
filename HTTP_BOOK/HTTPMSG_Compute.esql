@@ -5,6 +5,7 @@ CREATE COMPUTE MODULE HTTPMSG_Compute
 	BEGIN
 		-- CALL CopyMessageHeaders();
 	         CALL CopyEntireMessage();
+		 ------king is bav=ck   password
 		RETURN TRUE;
 	END;
 
