@@ -1,0 +1,27 @@
+
+
+Importing file: C:\Users\Administrator\IBM\ACET11\workspace\TASK_3\task3.wsdl
+
+
+The following is a list of WS-I warning messages found when importing:
+WS-I BP 1.1: (BP2118) The binding does not have the same list of operations as the task3 port type to which it refers., Line: 60, Column: 3
+
+
+The WSDL import will proceed with bindings task3SOAP.
+Creating wsdl schema document for file:///C:/Users/Administrator/IBM/ACET11/workspace/TASK_3/task3.wsdl.
+Parsing wsdl binding {http://www.example.org/task3/}task3SOAP.
+Parsing wsdl binding input Sub.
+Parsing wsdl binding output Sub.
+Processing doc style for operation Sub.
+Populating WSDL schema task3.xsd.
+Creating file task3.xsd in the workspace.
+Creating file task3_InlineSchema1.xsd in the workspace.
+Copying source WSDL task3.wsdl to task3.wsdl.
+
+Elapsed time processing this message definition file: 0.401 seconds
+Number of warnings for this message definition file: 0
+
+
+Number of files processed: 1
+
+
