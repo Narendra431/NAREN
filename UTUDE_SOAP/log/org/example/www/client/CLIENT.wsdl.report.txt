@@ -1,0 +1,22 @@
+
+
+Importing file: C:\Users\Administrator\IBM\ACET11\workspace\DEV\test\UTUDE_SOAP\CLIENT.wsdl
+
+The WSDL import will proceed with bindings CLIENTSOAP.
+Creating wsdl schema document for file:///C:/Users/Administrator/IBM/ACET11/workspace/DEV/test/UTUDE_SOAP/CLIENT.wsdl.
+Parsing wsdl binding {http://www.example.org/CLIENT/}CLIENTSOAP.
+Parsing wsdl binding input NewOperation.
+Parsing wsdl binding output NewOperation.
+Processing doc style for operation NewOperation.
+Populating WSDL schema CLIENT.xsd.
+Creating file CLIENT.xsd in the workspace.
+Creating file CLIENT_InlineSchema1.xsd in the workspace.
+Copying source WSDL CLIENT.wsdl to CLIENT.wsdl.
+
+Elapsed time processing this message definition file: 0.173 seconds
+Number of warnings for this message definition file: 0
+
+
+Number of files processed: 1
+
+
