@@ -5,6 +5,11 @@ CREATE COMPUTE MODULE rest_Compute1
 	BEGIN
 		  -- CALL CopyEntireMessage();
 		RETURN TRUE;
+		
+		
+		
+-- india  is my country
+		
 	END;
 
 	
