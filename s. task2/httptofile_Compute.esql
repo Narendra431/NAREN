@@ -1,0 +1,27 @@
+
+
+CREATE COMPUTE MODULE httptofile_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+	   
+	        CALL CopyEntireMessage();
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		DECLARE ref REFERENCE TO InputRoot.XMLNSC.Data;
+		  WHILE LASTMOVE(ref)  DO
+			SET OutputRoot.XMLNSC.Data.ID=ref.ID;
+			SET OutputRoot.XMLNSC.Data.name=ref.addr;
+			SET OutputRoot.XMLNSC.Data.addr=ref.Name;
+			
+			SET OutputLocalEnvironment.Destination.File.Name=  Name || '.xml';
+			SET OutputLocalEnvironment.Destination.File.Directory='C:\Users\Administrator\Pictures\mqsitransit';
+			MOVE ref NEXTSIBLING;
+		  END WHILE;
+		  END;
+			
+			
+	
+		
+END MODULE;
